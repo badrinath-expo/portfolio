@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s linear;
+}
+
+@font-face {
+    font-family: monaco;
+    src: url(MONACO.TTF);
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    font-family: monaco;
+}
+
+/* html,
+body {
+    height: 100%;
+} */
+
+body {
+    min-height: 100vh;
+    font-weight: 400;
+    font-style: normal;
+    padding: 2rem;
+    width: min(100vw, 1200px);
+    margin: 0 auto;
+}
+
+header {
+    font-family: Open Sans;
+    font-weight: 550;
+}
+
+.profile-img {
+    margin-top: 3%;
+}
+.connect-me-container {
+    margin-left: auto;
+    width: max-content;
+    gap: 1.5rem;
+    padding: 1rem;
+    margin-right: 3rem;
+    padding-right: 1.8rem;
+
+    .connect-icon {
+        border: 1.5px solid #636363;
+        border-radius: 6px;
+        padding: 3px;
+        scale: 1;
+    }
+
+    .github-icon {
+        padding: 1.5px;
+        border-radius: 10px;
+    }
+
+    .connect-icon:hover {
+        scale: 1.1;
+    }
+}
+
+#name-header {
+    font-family: "Rancho";
+    font-size: 42px;
+    margin-bottom: 1rem;
+    padding: 1.25rem;
+    border: 1px solid #ccc;
+    width: max-content;
+    border-radius: 16px;
+    letter-spacing: 5px;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+main {
+    .hero-section {
+        padding: 4rem 0;
+    }
+
+    .name-container {
+        width: 50%;
+        /* align-self: flex-start; */
+    }
+
+.skill-icon {
+    margin: 8px;
+   
+}
+
+}
+
+
+ .skill-icon,.visit-project{
+&:hover {
+    scale: 1.125;
+}
+ }
+
+.sub-heading {
+    font-family: Open Sans;
+    margin: 2rem 0;
+}
+
+.project-card {
+    width: min(100vw, 300px);
+    border: 1.5px solid #777;
+    border-radius: 8px;
+    align-self: flex-start;
+}
+
+.project-title {
+    border: 0px solid #ccc;
+    border-bottom-width: 1px;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.project-section {
+    gap: 3rem;
+}
+
+.project-content-container {
+    align-items: flex-start;
+    width: 50%;
+    margin:0 auto;
+}
+
+.project-img {
+    width: 300px;
+}
+
+.visit-project {
+    background-color: #333;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 8px;
+    margin: 4px 8px 4px auto;
+    font-family: "Open Sans" sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    body,html {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    body{
+        padding:0;
+    }
+
+    main{
+        flex:1 1 auto;
+        overflow: auto;
+    }
+
+
+header{
+  width: 100vw !important;
+    background: rgba(255, 255, 255, .33);
+    box-shadow: 0 4px 10px rgba(148, 148, 148, .1);
+    -webkit-backdrop-filter: blur(6.3px);
+    backdrop-filter: blur(6.3px);
+    /* border:1px solid red; */
+
+    span{
+        margin-left:auto;
+    }
+}
+.name-container{
+    width: auto !important;
+
+}
+.name-container,.sub-heading,.projects-container{
+    padding:1rem;
+}
+
+.connect-me-container{
+    margin-right:0px !important;
+
+}
+
+
+
+  }

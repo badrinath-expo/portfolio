@@ -1,0 +1,46 @@
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.al-c {
+    align-items: center;
+}
+
+.jc-c {
+    justify-content: center;
+}
+
+.jc-space-even{
+    justify-content: space-evenly;
+}
+.m-l-auto{
+    margin-left:auto;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.font-rancho{
+    font-family: Rancho;
+}
+
+.g-2{
+    gap:2rem;
+}
+
+.w-max-content{
+    width: max-content;
+}
+
+.fl-wrap{
+    flex-wrap: wrap;
+}
+
+.fl-wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
