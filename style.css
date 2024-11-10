@@ -20,7 +20,6 @@ a {
 body {
     height: 100%;
 } */
-
 body {
     min-height: 100vh;
     font-weight: 400;
@@ -148,6 +147,16 @@ main {
     font-family: "Open Sans" sans-serif;
 }
 
+.hide{
+    display: none;
+    visibility: hidden;
+}
+
+main{
+    flex:1 1 auto;
+    overflow: auto;
+}
+
 @media screen and (max-width: 600px) {
     body,html {
       height: 100%;
@@ -164,6 +173,19 @@ main {
         overflow: auto;
     }
 
+    #name-header{
+        margin:0 auto;
+    }
+
+.m-show{
+    display: block;
+    visibility:visible;
+}
+
+.m-hide{
+    display: none;
+    visibility: hidden;
+}
 
 header{
   width: 100vw !important;
@@ -190,6 +212,9 @@ header{
 
 }
 
+.project-content-container{
+width: 100%;
+}
 
 
   }

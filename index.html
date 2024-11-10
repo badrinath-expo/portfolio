@@ -8,6 +8,8 @@
     <script type="text/javascript" async src="./script.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="commonstyles.css">
+    <link rel="stylesheet" href="skills-orbit.css">
+    <!-- <link rel="stylesheet" href="skills.css"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rancho&family=Roboto&display=swap" rel="stylesheet">
@@ -31,21 +33,30 @@
     
     </header>
     <main class="flex flex-col" style="margin-top:1rem;">
+        <!-- <h3 id="name-header" class="hide m-show"></h3> -->
         <div class="hero-section flex jc-space-even al-c g-2 fl-wrap-reverse">
             <div class="name-container al-c flex flex-col g-2">
                 <h3 id="name-header"></h3>
                 <p>
-                    A Full-Stack Developer handles both front-end and back-end development, ensuring seamless
-                    integration and functionality of web applications.
+                    A full-stack developer with over 3 years of experience in <i>React</i> and <i>React Native</i>, specializing in high-performance, scalable applications for both web and mobile platforms.
                 </p>
                 <div class="skill-container">
-                    <img class="skill-icon pointer" src="skill-icons/javascript-js.svg" />
-                    <img class="skill-icon pointer" src="skill-icons/ts.svg" style="border-radius: 16px;" />
                     <img class="skill-icon pointer" src="skill-icons/react.svg" />
+                    <img class="skill-icon pointer" src="skill-icons/ts.svg" style="border-radius: 16px;" />
+                    <img class="skill-icon pointer" src="skill-icons/javascript-js.svg" />
                 </div>
             </div>
+          
             <img src="./pic.svg" class="profile-img" />
         </div>
+
+        <div class="skills-orbits-container">
+            <div class="outer App-logo" id="skills-orbit"></div>
+            <div class="skills-title">Skills</div>
+            <div class="inner_orbit"></div>
+            <div class="outer_orbit"></div>
+        </div>
+
         <h2 class="sub-heading w-max-content">PROJECTS</h2>
         <div class="projects-container flex flex-col">
 
